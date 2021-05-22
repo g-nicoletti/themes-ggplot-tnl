@@ -17,7 +17,7 @@ tnl_theme <- function() {
     axis.ticks = element_line(colour = "#6c6c69"),
     # legend at the bottom 6)
     legend.position = "bottom",
-    legend.key = element_rect(fill = "white", colour = "black"),
+    legend.key = element_rect(fill = "white", colour = "black")#,
     #plot.title=element_text(family="Times", face="bold", size=20)
   )
 }
