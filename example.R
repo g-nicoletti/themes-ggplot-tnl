@@ -1,5 +1,6 @@
 library(ggplot2)
 
-ggplot(iris, aes(x = Petal.Length)) +
-  geom_histogram(fill = "steelblue", col = "steelblue4") +
-  tnl_theme()
+ggplot(iris, aes(x = Petal.Length, y = Petal.Width)) +
+  geom_point() +
+  tnl_theme() +
+  ggtitle("this is a title")
